@@ -1,0 +1,41 @@
+body{
+    font-family: 'Bree Serif', serif;
+    background-color: rgb(5, 78, 5);
+    color: white;
+    display: center;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+    height: 700px;
+}
+
+
+.op{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: white 2px solid;
+    padding: 2px;
+}
+.logo{
+    width: 300px;
+    height: auto;
+    display: flex;
+}
+
+.escolha{
+    display: none;
+}
+
+.escolha.ativo{
+    display: block;
+}
+
+.ap{
+    max-width: 80%;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
